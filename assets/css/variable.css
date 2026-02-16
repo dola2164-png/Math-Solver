@@ -1,18 +1,4 @@
-/*-----------------------------------*\
-  #variable.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #VARIABLE
-\*-----------------------------------*/
 
 :root {
 
@@ -20,15 +6,32 @@
    * colors 
    */
 
-  --red-orange-color-wheel: hsl(15, 100%, 55%);
-  --ultramarine-blue: hsl(217, 100%, 50%);
-  --lavender-blue: hsl(229, 96%, 91%);
-  --oxford-blue: hsl(229, 84%, 12%);
-  --light-gray: hsl(0, 0%, 80%);
-  --sonic-silver: hsl(0, 0%, 47%);
-  --blue-crayola: hsl(216, 98%, 52%);
-  --cultured: hsl(228, 26%, 96%);
-  --white: hsl(0, 0%, 100%);
+  /* 🎀 Baby Pink (Main Color) */
+  --red-orange-color-wheel: #ffb6c1;
+
+  /* ☁ Sky Blue (Secondary Color) */
+  --ultramarine-blue: #87ceeb;
+
+  /* 🌸 Light Baby Pink */
+  --lavender-blue: #fd9dba;
+
+  /* 💗 Dark Baby Pink (for headings, footer) */
+  --oxford-blue: #e80080;
+
+  /* ☁ Light Sky Background */
+  --light-gray: #e0f7ff;
+
+  /* Text Color */
+  --sonic-silver: #555;
+
+  /* 🌤 Bright Sky Blue */
+  --blue-crayola: #4fc3f7;
+
+  /* 🤍 Background */
+  --cultured: #f0fbff;
+
+  /* White */
+  --white: #ffffff;
 
   /**
    * typography 

@@ -1,13 +1,8 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
+/* body {
+  background: linear-gradient(to bottom, #ffffff, #f0fbff);
+}
  */
-/*-----------------------------------*\
-  #VARIABLE
-\*-----------------------------------*/
+
 
 @import url(./variable.css);
 /*-----------------------------------*\
@@ -21,6 +16,10 @@
 }
 
 li { list-style: none; }
+.navbar-brand img{
+  width: 150px;
+  height: auto;
+}
 
 a {
   text-decoration: none;
@@ -257,25 +256,11 @@ html {
 }
 
 .home::before {
-  content: '';
-  position: absolute;
-  top:  -200px;
-  left: -400px;
-  width:  800px;
-  height: 800px;
-  border-radius: 50%;
-  background: radial-gradient(ellipse at center, hsla(217, 100%, 50%, 0.3), transparent 70%);
+  display: none;
 }
 
 .home::after {
-  content: '';
-  position: absolute;
-  top:    100px;
-  right: -400px;
-  width:  800px;
-  height: 800px;
-  border-radius: 50%;
-  background: radial-gradient(ellipse at center, #C3F8FF, transparent 70%);
+   display: none;
 }
 
 .home .deco-shape { position: absolute; }
@@ -355,7 +340,7 @@ html {
 
 .home-right .img-box .banner-img {
   position: relative;
-  width: auto;
+   width: 900px;
   max-width: 100%;
   margin: auto;
   z-index: 2;
@@ -522,6 +507,9 @@ html {
 .about-ul li:not(:last-child) { margin-bottom: 30px; }
 
 
+.linkedin-icon ion-icon {
+  font-size: 35px;
+}
 
 
 
@@ -530,7 +518,7 @@ html {
 \*-----------------------------------*/
 
 .course { padding: var(--py) var(--px);
-  background: #d5f1f5; }
+  background: white; }
 
 .course .section-subtitle { margin-bottom: 15px; }
 
